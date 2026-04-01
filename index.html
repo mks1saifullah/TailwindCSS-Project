@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind CSS Project</title>
+    <!-- fontawesome cdn ling -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <!-- css file link hare -->
-     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body class="bg-[#2B2D33]">
-    <nav class="bg-[#2B2D33] shadow-xl">
+
+    <nav class="bg-[#2B2D33] shadow-xl sticky top-0 z-10">
         <div class="container mx-auto">
             <div class="sm:flex justify-between items-center py-5">
                 <div class="text-center mb-3 sm:mb-0">
-                    <a href="#" class="text-white text-xl sm:text-3xl font-bold"><span class="text-[#F65023]">C</span>oding Li<span class="text-[#F65023]">fe</span></a>
+                    <a href="#" class="text-white text-xl sm:text-3xl font-bold"><span
+                            class="text-[#F65023]">C</span>oding Li<span class="text-[#F65023]">fe</span></a>
                 </div>
                 <ul class="sm:flex text-xl text-white text-center border-t sm:border-none">
-                    <li class="mt-3 sm:mt-0"><a href="#" class="p-3 hover:text-[#F65023]">Contact</a></li>
-                    <li><a href="#" class="p-3 text-[#F65023]">Home</a></li>
+                    <li class="mt-3 sm:mt-0"><a href="#" class="p-3 text-[#F65023]">Home</a></li>
+                    <li><a href="#" class="p-3 hover:text-[#F65023]">Contact</a></li>
                     <li><a href="#" class="p-3 hover:text-[#F65023]">Pfoduct</a></li>
                     <li><a href="#" class="p-3 hover:text-[#F65023]">Blog</a></li>
                     <li><a href="#" class="p-3 hover:text-[#F65023]">Portfolio</a></li>
@@ -24,5 +30,67 @@
             </div>
         </div>
     </nav>
+
+    <head>
+        <div
+            class="text-white sm:flex justify-around items-center text-center container mx-auto border border-indigo-500 border-t-0 h-[80vh] px-10 pt-10">
+            <div>
+                <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl mb-5 sm:mb-10 ">Coding Life: Let`s learn <br>
+                    programming & build a career.</h1>
+                <button class="bg-indigo-500  px-7 py-3 rounded-xl shadow-2xl hover:bg-indigo-800 transition ease-in-out mb-10 sm:mb-0">Learning
+                    with Coding life <i class="fa-solid fa-arrow-right text-red-700 animate-ping"></i> </button>
+            </div>
+            <div class="sm:w-1/2">
+                <img src="./img/heroImg.png" alt="heroImg" class="animate-pulse">
+            </div>
+        </div>
+    </head>
+
+
+    <main>
+        <section class="my-24 container mx-auto">
+            <h2 class="text-white text-3xl text-center mb-12">Our Services</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+                <div
+                    class="text-center text-white bg-gray-800 border-[#1E2936] hover:border-indigo-600 border-4 rounded-xl p-3 cursor-pointer">
+                    <img src="./img/frontEnd.png" alt="frontEnd" class="w-1/2 mx-auto">
+                    <h3 class="underline underline-offset-4">Front End Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div
+                    class="text-center text-white bg-gray-800 border-[#1E2936] hover:border-indigo-600 border-4 rounded-xl p-3 cursor-pointer">
+                    <img src="./img/frontEnd.png" alt="frontEnd" class="w-1/2 mx-auto">
+                    <h3 class="underline underline-offset-4">Front End Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div
+                    class="text-center text-white bg-gray-800 border-[#1E2936] hover:border-indigo-600 border-4 rounded-xl p-3 cursor-pointer">
+                    <img src="./img/frontEnd.png" alt="frontEnd" class="w-1/2 mx-auto">
+                    <h3 class="underline underline-offset-4">Front End Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div
+                    class="text-center text-white bg-gray-800 border-[#1E2936] hover:border-indigo-600 border-4 rounded-xl p-3 cursor-pointer">
+                    <img src="./img/frontEnd.png" alt="frontEnd" class="w-1/2 mx-auto">
+                    <h3 class="underline underline-offset-4">Front End Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div
+                    class="text-center text-white bg-gray-800 border-[#1E2936] hover:border-indigo-600 border-4 rounded-xl p-3 cursor-pointer">
+                    <img src="./img/frontEnd.png" alt="frontEnd" class="w-1/2 mx-auto">
+                    <h3 class="underline underline-offset-4">Front End Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div
+                    class="text-center text-white bg-gray-800 border-[#1E2936] hover:border-indigo-600 border-4 rounded-xl p-3 cursor-pointer">
+                    <img src="./img/frontEnd.png" alt="frontEnd" class="w-1/2 mx-auto">
+                    <h3 class="underline underline-offset-4">Front End Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
